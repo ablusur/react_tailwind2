@@ -7,7 +7,7 @@ const Footer = () => {
     <footer className="py-[100px]">
       <div className=" bg-black py-[50px]">
         <div className="max-w-container mx-auto flex">
-          <div className="w-3/12 py-7">
+          <div className="lg:w-3/12 py-7">
             <div className="">
               <img src={Logo} className="text-black" alt="" />
               <ul>
@@ -27,27 +27,29 @@ const Footer = () => {
             </div>
           </div>
 
-          <div className="w-3/12 py-7">
+          <div className="lg:w-3/12 py-7">
             <div className="">
               <ul>
-                <li className="text-white font-poppin text-[12px] pt-3">
+                <li className="text-white font-poppin lg:text-[12px] text-sm pt-3">
                   Quicklinks
                 </li>
-                <li className="text-white font-poppin text-[12px] py-2">
+                <li className="text-white font-poppin lg:text-[12px] text-sm py-2">
                   ABOUT US
                 </li>
-                <li className="text-white font-poppin text-[12px] py-2">
+                <li className="text-white font-poppin lg:text-[12px] text-sm py-2">
                   SERVICES
                 </li>
-                <li className="text-white font-poppin text-[12px] py-2">
+                <li className="text-white font-poppin lg:text-[12px] text-sm py-2">
                   EVENT
                 </li>
-                <li className="text-white font-poppin text-[12px]">BLOG</li>
+                <li className="text-white font-poppin lg:text-[12px] text-sm">
+                  BLOG
+                </li>
               </ul>
             </div>
           </div>
 
-          <div className="w-3/12 py-7">
+          <div className="lg:w-3/12 py-7">
             <div className="">
               <ul className="">
                 <li className="text-white font-poppin text-[12px] pt-3 pb-7">
